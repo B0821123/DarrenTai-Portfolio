@@ -83,14 +83,6 @@ Current directions:
 
 ---
 
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=B0821123&show_icons=true&theme=default)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=B0821123&layout=compact)
-
----
-
 ## Contact
 
 - GitHub: [@B0821123](https://github.com/B0821123)
