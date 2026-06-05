@@ -283,6 +283,7 @@ button {
   align-self: end;
   display: grid;
   gap: 18px;
+  min-width: 0;
   padding: 18px;
   border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 8px;
@@ -292,6 +293,7 @@ button {
 
 .photo-slot {
   display: grid;
+  width: 100%;
   aspect-ratio: 4 / 5;
   place-items: center;
   border: 1px dashed rgba(255, 255, 255, 0.5);
@@ -312,12 +314,16 @@ button {
 .quick-facts {
   display: grid;
   gap: 8px;
+  min-width: 0;
 }
 
 .quick-facts p {
+  min-width: 0;
   margin: 0;
   color: rgba(255, 255, 255, 0.84);
   font-size: 14px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .section {
@@ -361,6 +367,7 @@ button {
   padding: 24px;
   color: var(--muted);
   font-size: 17px;
+  overflow-wrap: anywhere;
 }
 
 .project-grid {
@@ -387,6 +394,7 @@ button {
 .timeline-item p {
   margin: 0;
   color: var(--muted);
+  overflow-wrap: anywhere;
 }
 
 .tag-row {
@@ -437,6 +445,7 @@ button {
   padding-left: 20px;
   color: var(--muted);
   font-size: 14px;
+  overflow-wrap: anywhere;
 }
 
 .timeline {
@@ -629,6 +638,10 @@ button {
     padding: calc(var(--header-h) + 52px) 0 34px;
   }
 
+  .hero-bg {
+    object-position: 58% center;
+  }
+
   .hero-overlay {
     background:
       linear-gradient(180deg, rgba(5, 12, 14, 0.82), rgba(5, 12, 14, 0.64) 54%, var(--bg)),
@@ -670,12 +683,16 @@ button {
 
   .profile-panel {
     width: 100%;
-    grid-template-columns: 120px 1fr;
+    max-width: 420px;
+    grid-template-columns: minmax(96px, 30%) minmax(0, 1fr);
     align-items: center;
+    gap: 14px;
+    padding: 16px;
   }
 
   .photo-slot {
-    aspect-ratio: 1;
+    aspect-ratio: 4 / 5;
+    max-width: 128px;
   }
 
   .section {
@@ -690,6 +707,20 @@ button {
 
   .timeline-item {
     gap: 8px;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .profile-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-slot {
+    max-width: 150px;
   }
 }
 
