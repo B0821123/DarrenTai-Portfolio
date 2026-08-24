@@ -1,92 +1,98 @@
-# Hi, I'm Darren Tai 👋
+# Hi, I'm Darren Tai
 
-I'm a developer focused on **cloud systems**, **workflow automation**, **Android applications**, and **distributed software prototypes**.
+Electrical Engineering master's student at Chang Gung University, focused on **embedded software**, **edge AI**, **sensor fusion**, **TinyML**, and backend systems that turn device data into usable applications.
 
-My projects connect practical engineering concerns: real-time apps, containerized services, manager-worker architectures, P2P communication, Microsoft 365 automation, networking utilities, and sensor experimentation. I like building systems that are not only functional, but also observable, recoverable, and easy to operate.
+My current research direction is an **MCU-based multi-pressure-sensor fusion system with TinyML for real-time chest-compression quality assessment**. I enjoy building systems where hardware signals, firmware behavior, data flow, and user-facing software all have to work together.
+
+As part of the **STP26 Seed Talent Program**, I worked with a team on Dyaco International's AI running-form coaching app. The project combined mobile video capture, pose analysis, educational AI feedback, and cloud history tracking, and received the program's **Best Project Award — First Place (Team)**.
 
 ---
 
-## About Me
+## Focus
 
-- Build practical systems across **application development**, **cloud infrastructure**, **automation**, and **distributed computing**
-- Comfortable working from frontend/UI flows to backend APIs, containers, networking scripts, and platform integrations
-- Interested in reliability patterns such as **heartbeat monitoring**, **failover**, **consensus**, **self-repair**, and operational automation
-- Currently exploring how AI-assisted workflows can turn data pipelines into usable decision-support tools
+- Embedded software and firmware for sensor-driven systems
+- MCU-based signal processing, sensor fusion, and real-time evaluation
+- TinyML and edge-device AI deployment
+- Computer vision and pose-analysis applications
+- Backend services for AI-assisted workflows and device/application integration
+- Reliability patterns: heartbeat monitoring, failover, consensus, state sync, and recovery
 
 ---
 
 ## Tech Stack
 
-### Languages & Development
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Batch Script](https://img.shields.io/badge/Batch_Script-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+### Embedded, Edge AI & Systems
+![Embedded Software](https://img.shields.io/badge/Embedded_Software-204B57?style=for-the-badge)
+![Firmware](https://img.shields.io/badge/Firmware-355C7D?style=for-the-badge)
+![MCU](https://img.shields.io/badge/MCU-2E7D5B?style=for-the-badge)
+![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-6A8D73?style=for-the-badge)
+![TinyML](https://img.shields.io/badge/TinyML-8A6F3D?style=for-the-badge)
+![Edge AI](https://img.shields.io/badge/Edge_AI-1F6F8B?style=for-the-badge)
 
-### Platforms, Frameworks & Tools
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+### Languages & Backend
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-4B5563?style=for-the-badge)
+
+### Platforms & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
-![Microsoft Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
-![Microsoft Teams](https://img.shields.io/badge/Microsoft_Teams-6264A7?style=for-the-badge&logo=microsoftteams&logoColor=white)
+![LINE](https://img.shields.io/badge/LINE-00C300?style=for-the-badge&logo=line&logoColor=white)
 
 ---
 
-## Project Portfolio
+## Selected Projects
 
 | Project | Focus | What it demonstrates | Tech |
 | --- | --- | --- | --- |
-| [VideoMaestro](https://github.com/B0821123/CloudSystem_VideoMaestro) | Distributed video transcoding | Manager-worker task distribution, chunked uploads, GPU-accelerated FFmpeg encoding, live node monitoring, worker failure detection, and manager failover mode | Python, Flask, Docker Compose, FFmpeg, NVENC, Cloudflare Tunnel, JavaScript |
-| [Aegis-Chain](https://github.com/B0821123/CloudSystem_Aegis-Chain) | P2P ledger / blockchain demo | File-based chained ledger, SHA-256 integrity checks, UDP/TCP peer communication, heartbeat-driven liveness, dynamic majority consensus, trust freeze, and automatic self-repair | Python, Flask, Docker, Tailscale, UDP, REST API |
-| [CGU Android ChatApp](https://github.com/B0821123/CGU_Android_ChatApp) | Real-time Android messaging | Account registration, Firebase authentication, real-time Firestore messaging, recent conversations, online/offline availability, profile images, and push notifications | Java, Android SDK, Firebase Auth, Firestore, FCM, Retrofit |
-| [Power Automate Stock Analysis](https://github.com/B0821123/Power-Automate-Stock-Analysis) | Low-code AI data pipeline | Microsoft Teams input flow, TWSE data collection, JSON-to-CSV processing, OneDrive report storage, AI Builder summaries, and Adaptive Card delivery | Power Automate, Teams, TWSE API, OneDrive, AI Builder, CSV |
-| [AutoIP](https://github.com/B0821123/AutoIP) | Windows networking utility | Event-triggered Ethernet profile switching, fixed-IP environment selection, Windows Task Scheduler integration, UAC-safe execution, and `netsh` automation | Batch Script, Windows Task Scheduler, netsh |
-| ICM-20948 Test | Sensor / hardware experiment | Private workspace for ICM-20948 sensor testing and hardware-oriented experimentation | Embedded systems, sensor testing |
+| **Dyaco AI 跑姿矯正 APP** | STP26 enterprise AI project | Team-built running-form analysis app with 10–30 second video selection, seven pose metrics, educational AI feedback, bilingual sports assistance, cloud history, and trend views; Best Project Award — First Place (Team) | Flutter, FastAPI, MediaPipe, OpenCV, AWS RDS MySQL |
+| [LINE-MedBoardCoach](https://github.com/Darren-HUNGITAI/LINE-MedBoardCoach) | AI study assistant | Flask LINE Webhook integrated with CGU LLM, AI Q&A, conversation memory, medical board exam quiz flow, SQLite answer history, scoring, and weakness analysis | Python, Flask, LINE Messaging API, SQLite, LLM API |
+| [VideoMaestro](https://github.com/Darren-HUNGITAI/CloudSystem_VideoMaestro) | Fault-tolerant video transcoding cluster | Manager-worker task distribution, chunked upload, GPU-accelerated FFmpeg encoding, node monitoring, worker failure detection, and manager failover mode | Python, Flask, Docker Compose, FFmpeg, NVENC, Cloudflare Tunnel |
+| [Aegis-Chain](https://github.com/Darren-HUNGITAI/CloudSystem_Aegis-Chain) | Self-healing P2P ledger | File-based chained ledger, SHA-256 integrity checks, UDP/TCP peer communication, heartbeat-driven liveness, dynamic majority consensus, trust freeze, and automatic ledger repair | Python, Flask, Docker, Tailscale, UDP, REST API |
+| [CGU Android ChatApp](https://github.com/Darren-HUNGITAI/CGU_Android_ChatApp) | Real-time Android messaging | Firebase authentication, Cloud Firestore real-time messaging, recent conversations, online/offline availability, profile images, and FCM push notifications | Java, Android SDK, Firebase Auth, Firestore, FCM, Retrofit |
 
 ---
 
 ## Engineering Highlights
 
-### Distributed Systems
-- Built **VideoMaestro**, a containerized video transcoding cluster with distributed task execution, heartbeat monitoring, per-node metrics, chunked upload handling, and failover behavior.
-- Built **Aegis-Chain**, a from-scratch P2P ledger demo using UDP messaging, dynamic majority consensus, network-wide trust state, and automatic ledger repair.
+### Enterprise AI Project & Team Award
+- Participated in the **STP26 Seed Talent Program** from March 21 to August 22, 2026, working with **Dyaco International Inc.** on an AI running-form coaching application.
+- The team integrated Flutter, FastAPI, MediaPipe, OpenCV, AI-generated educational feedback, and AWS RDS MySQL history tracking.
+- Received the program's **Best Project Award — First Place (Team)** at the final presentation.
+- The system provides running-form analysis and educational feedback; it is not a medical diagnostic or injury-prediction tool.
 
-### Application & Backend Development
-- Built a **real-time Android chat application** with Firebase authentication, Cloud Firestore messaging, FCM notifications, profile image handling, and local session persistence.
-- Designed REST-style service boundaries for distributed demos and operational dashboards.
+### Embedded Edge AI Direction
+- Researching MCU-based multi-pressure-sensor fusion for real-time chest-compression quality assessment.
+- Interested in TinyML deployment, sensor firmware, wearable-device software, and edge-device data pipelines.
+- Career direction: **Embedded Software Engineer Intern**, **Firmware Engineer Intern**, **IoT Firmware Engineer**, **Sensor Firmware Engineer**, **Wearable Device Engineer**, and **Edge Device Software Engineer**.
 
-### Automation & Operational Tooling
-- Built a **Power Automate + Teams** workflow that collects Taiwan stock data, generates CSV reports, stores outputs in OneDrive, and returns AI-generated summaries to users.
-- Built **AutoIP**, a lightweight Windows fixed-IP switching tool for campus, dorm, and lab network environments.
+### Backend, Reliability & AI Workflows
+- Built distributed systems that handle failure paths explicitly: heartbeat checks, failover mode, consensus, repair, and live node state.
+- Built AI-assisted workflow software that turns domain content and user interaction history into practical feedback loops.
+- Comfortable connecting UI flows, APIs, containers, databases, and real-time application state.
 
----
-
-## What I'm Building Toward
-
-I am interested in combining **software engineering**, **cloud infrastructure**, **automation**, and **AI-assisted workflows** to build systems that are reliable, useful, and easy to operate.
-
-Current directions:
-
-- Cloud-native and distributed system design
-- Containerized services with monitoring and failover behavior
-- Workflow automation with Microsoft 365 and low-code platforms
-- AI-assisted data analysis and report generation
-- Android applications with real-time backend services
-- Practical networking, hardware, and operations tools
+### Semiconductor Field Experience
+- **Micron MTB PWF MRDA - Summer Intern, Equipment Engineering:** contributed to the TIQ (Tool Installation & Qualification) Management and Data Visualization platform by designing its data-processing architecture and automated workflows with Microsoft Power Apps, Power Automate, and Power BI.
 
 ---
 
 ## Contact
 
-- GitHub: [@B0821123](https://github.com/B0821123)
+- GitHub: [@Darren-HUNGITAI](https://github.com/Darren-HUNGITAI)
+- Personal Site: [Darren Tai Portfolio](https://darren-hungitai.github.io/B0821123/)
 
 ---
 
-> Build practical systems. Test the failure paths. Document the design. Improve the operation.
+> Build close to the signal. Make the system observable. Test the failure path.
